@@ -1,0 +1,52 @@
+.promo {
+  background-color: @basic_blue;
+}
+
+.promo__wrapper {
+  width: 320px;
+  margin: 0 auto;
+
+  background: url(../img/globe-back-mobile@1x.jpg) no-repeat;
+}
+@media (min-width: @tablet-width) {
+  .promo__wrapper {
+    width: 768px;
+    background: url(../img/globe-back-tablet@1x.jpg) no-repeat;
+  }
+}
+@media (min-width: @desktop-width) {
+  .promo__wrapper {
+    width: 1440px;
+    background: url(../img/globe-back-desktop@1x.jpg) no-repeat;
+  }
+}
+
+.promo__tagline {
+  display: block;
+  width: 238px;
+  margin: 0 auto;
+
+  font-family: 'Blogger Sans', "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+@media (min-width: @tablet-width) {
+  .promo__tagline {
+    width: 399px;
+
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media (min-width: @desktop-width) {
+  .promo__tagline {
+    width: 418px;
+    margin: 0;
+
+    text-align: left;
+  }
+}
