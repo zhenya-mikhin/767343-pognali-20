@@ -21,6 +21,18 @@
   }
 }
 
+.promo__row {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: @desktop-width) {
+  .promo__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 .promo__tagline {
   display: block;
   width: 238px;
